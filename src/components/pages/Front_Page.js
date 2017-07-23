@@ -3,6 +3,7 @@ import React from 'react';
 import Headline from '../blocks/Headline';
 import Information from '../blocks/Information';
 import SelectedWorks from '../blocks/SelectedWorks';
+import Footer from '../blocks/Footer';
 
 const FrontPage = () => {
   return (
@@ -10,6 +11,7 @@ const FrontPage = () => {
       <Headline />
       <Information />
       <SelectedWorks />
+      <Footer />
     </div>
 
 

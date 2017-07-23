@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'atc_harrisregular';
+    src: url('atcharris-regular-webfont.eot');
+    src: url('atcharris-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('atcharris-regular-webfont.woff2') format('woff2'),
+         url('atcharris-regular-webfont.woff') format('woff'),
+         url('atcharris-regular-webfont.ttf') format('truetype'),
+         url('atcharris-regular-webfont.svg#atc_harrisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

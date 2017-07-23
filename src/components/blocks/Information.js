@@ -16,10 +16,9 @@ const Information = () => {
 
         <h1>Contact</h1>
         <ul className="_ContactList">
-          <li>Email:</li>
-          <li>Twitter:</li>
-          <li>mar.bocatcat@gmail.com</li>
-          <li>@marbocatcat</li>
+          <li>Email: <br/> mar.bocatcat@gmail.com </li>
+          <li>Twitter: <br/> @marbocatcat </li>
+          <li>Phone: <br/> +1(773)-(957)-(9983)</li>
         </ul>
 
 

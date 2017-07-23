@@ -8,7 +8,7 @@ const Headline = () => {
           <a href="/">Mar Bocatcat</a>
         </li>
         <li>
-          <a href="">Menu</a>
+          <a href=""><i className="fa fa-bars fa-lg" aria-hidden="true"></i></a>
         </li>
       </ul>
     </div>
