@@ -93,6 +93,7 @@ h5 {
   padding: 1rem 0 0 0;
 }
 
+
 ._Contact {
   flex: 1;
   padding-left: 4rem;
@@ -127,6 +128,27 @@ img {
   width: 560px;
 }
 
+img:hover {
+  opacity: 0;
+}
+
+._HoverOn {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+._HoverOn li {
+  margin-top: 2rem;
+}
+
+._HoverBox {
+  position: relative;
+}
+
+
 ._ImageList {
   list-style: none;
   padding: 0;
@@ -138,6 +160,7 @@ img {
 ._ImageList li {
   margin-top: 2rem;
 }
+
 
 ._SelectedWorks {
   display: block;
@@ -174,4 +197,23 @@ img {
 
 ._Footer {
   margin-bottom: 3rem;
+}
+
+/* -------- */
+
+._Blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+._Blog p {
+  line-height: 1.7rem;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+._BlogImage {
+  height: 542px;
+  width: 1000px;
 }
