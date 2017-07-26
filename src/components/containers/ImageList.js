@@ -7,9 +7,14 @@ class ImageList extends Component {
     return (
       this.props.images.map((photo) => {
         return (
-          <li key={photo.image}>
-            <a href=""><img src={photo.image} alt="" /></a>
-          </li>
+            <li>
+              <div className="_Card" style={ photo.image }>
+                <div className="_onHover" >
+                  <h4>{ photo.description }</h4>
+                  <h5>{ photo.date }</h5>
+                </div>
+              </div>
+            </li>
         )
       })
     )

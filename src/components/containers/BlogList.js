@@ -7,7 +7,7 @@ class BlogList extends Component {
     return (
       this.props.Blogs.map((blog) => {
         return (
-          <article>
+          <article key={ blog.date }>
             <h1>{ blog.title }</h1>
             <h5>{ blog.date }</h5>
             <img className="_BlogImage" src={blog.image} alt=""/>

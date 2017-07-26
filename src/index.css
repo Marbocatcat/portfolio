@@ -123,31 +123,24 @@ h5 {
 
 /* -------- */
 
-img {
+._Card {
   height: 350px;
   width: 560px;
+  background-size: cover;
+  background-position: center;
 }
 
-img:hover {
-  opacity: 0;
+._onHover {
+  display: none;
+  position: absolute;
 }
 
-._HoverOn {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  flex-wrap: wrap;
-  justify-content: space-between;
+._Card:hover ._onHover {
+  height: 350px;
+  width: 560px;
+  display: block;
+  background-color: #FFF;
 }
-
-._HoverOn li {
-  margin-top: 2rem;
-}
-
-._HoverBox {
-  position: relative;
-}
-
 
 ._ImageList {
   list-style: none;
@@ -156,6 +149,7 @@ img:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 
 ._ImageList li {
   margin-top: 2rem;
