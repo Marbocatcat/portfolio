@@ -3,26 +3,26 @@ export default function() {
     { image: {
       backgroundImage: 'url(../images/image1.jpg)',
     },
-      description: 'The Towers',
-      date: 'May 24th, 2016'
+      title: 'The Towers',
+      description: 'Taken in Utah - beautiful, breathtaking towers. Towering all over the desert.'
     },
     { image: {
       backgroundImage: 'url(../images/image2.jpg)',
     },
-      description: 'Rapelling',
-      date: 'June 20th, 2017'
+      title: 'Rapelling',
+      description: 'Climbed in the Looking Glass in Utah at 100 Fahrenheit heat.'
     },
     { image: {
       backgroundImage: 'url(../images/image3.jpg)',
     },
-      description: 'The Baby',
-      date: 'June 23rd, 2017'
+      title: 'The Baby',
+      description: 'A picture of my baby from Cannonville Utah.'
     },
     { image: {
       backgroundImage: 'url(../images/image4.jpg)',
     },
-      description: 'Alien Fuel',
-      date: 'July 4th, 2017'
+      title: 'Alien Fuel',
+      description: 'Picture taken at home with a X-T10.'
     }
   ]
 }

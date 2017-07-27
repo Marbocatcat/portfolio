@@ -10,8 +10,8 @@ class ImageList extends Component {
             <li>
               <div className="_Card" style={ photo.image }>
                 <div className="_onHover" >
-                  <h4>{ photo.description }</h4>
-                  <h5>{ photo.date }</h5>
+                  <h1>{ photo.title }</h1>
+                  <p>{ photo.description }</p>
                 </div>
               </div>
             </li>
