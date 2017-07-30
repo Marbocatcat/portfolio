@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from './Modal';
 
 const Headline = () => {
   return (
@@ -8,7 +9,7 @@ const Headline = () => {
           <a href="/">Mar Bocatcat</a>
         </li>
         <li>
-          <a href=""><i className="fa fa-bars fa-lg" aria-hidden="true"></i></a>
+          <Modal />
         </li>
       </ul>
     </div>

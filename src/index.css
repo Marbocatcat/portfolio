@@ -209,6 +209,25 @@ h5 {
 
 /* -------- */
 
+._ModalList {
+  display: flex;
+  padding: 14rem;
+  justify-content: center;
+  list-style: none;
+}
+
+._ModalList li {
+  padding: 0 4rem 0 0;
+  font-family: "atc_harrisregular";
+  font-size: 2rem;
+}
+
+._ModalList li:hover {
+  color: red;
+}
+
+/* -------- */
+
 ._Blog {
   display: flex;
   flex-direction: column;
