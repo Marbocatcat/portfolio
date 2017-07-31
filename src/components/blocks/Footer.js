@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="_SmallBox _Social">
         <h1>Socialising</h1>
         <ul className="_SocialList">
-          <li><a href=""><i className="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-          <li><a href="https://unsplash.com/@marbocatcat"><i className="fa fa-camera fa-lg" aria-hidden="true"></i></a></li>
-          <li><a href="https://medium.com/@marmarley92"><i className="fa fa-medium fa-lg" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/Marbocatcat"><i className="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href=""><i className="fa fa-twitter fa-lg" aria-hidden="false"></i></a></li>
+          <li><a href="https://unsplash.com/@marbocatcat"><i className="fa fa-camera fa-lg" aria-hidden="false"></i></a></li>
+          <li><a href="https://medium.com/@marmarley92"><i className="fa fa-medium fa-lg" aria-hidden="false"></i></a></li>
+          <li><a href="https://github.com/Marbocatcat"><i className="fa fa-github fa-lg" aria-hidden="false"></i></a></li>
         </ul>
         <h5>Hosted by Font Awesome</h5>
       </div>

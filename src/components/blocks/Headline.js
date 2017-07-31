@@ -1,12 +1,12 @@
 import React from 'react';
 import Modal from './Modal';
 
-const Headline = () => {
+const Headline = ({ children }) => {
   return (
     <div className="_Headline">
       <ul className="_Header">
         <li>
-          <a href="/">Mar Bocatcat</a>
+          <a href="/">{ children }</a>
         </li>
         <li>
           <Modal />

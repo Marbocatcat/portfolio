@@ -217,7 +217,7 @@ h5 {
 }
 
 ._ModalList li {
-  padding: 0 4rem 0 0;
+  padding: 0 3rem 0 0;
   font-family: "atc_harrisregular";
   font-size: 2rem;
 }
@@ -243,4 +243,23 @@ h5 {
 ._BlogImage {
   height: 542px;
   width: 1000px;
+}
+
+._BlogForm {
+  padding: 4rem 8rem 0 8rem;
+}
+
+input {
+  font-family: "atc_harrisregular";
+  font-size: 3rem;
+  color: #FF6542;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  font-family: "atc_harrislight";
+  font-size: 2rem;
+  border: none;
+  outline: none;
 }

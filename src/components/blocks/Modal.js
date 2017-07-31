@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import { Link } from 'react-router-dom';
 
-export default class Modal extends React.Component {
+export default class Modal extends Component {
   constructor(props) {
     super(props);
     this.state = {showModal: false}
@@ -28,9 +28,9 @@ export default class Modal extends React.Component {
             <ul className="_ModalList">
               <Link to="/"><li>Home</li></Link>
               <Link to="/Blog"><li>Blog</li></Link>
-              <Link to="/Work"><li>Work</li></Link>
-              <Link to="/Portfolio"><li>Portfolio</li></Link>
+              <Link to="/Works"><li>Works</li></Link>
               <Link to="/Photographs"><li>Photographs</li></Link>
+              <Link to="/Log In"><li>Log In</li></Link>
             </ul>
 
           </ReactModal>

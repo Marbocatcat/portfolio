@@ -8,7 +8,7 @@ import Footer from '../blocks/Footer';
 const FrontPage = () => {
   return (
     <div>
-      <Headline />
+      <Headline>Mar Bocatcat</Headline>
       <Information />
       <SelectedWorks />
       <Footer />
