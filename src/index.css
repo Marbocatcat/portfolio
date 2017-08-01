@@ -262,4 +262,21 @@ textarea {
   font-size: 2rem;
   border: none;
   outline: none;
+  resize: none;
+}
+
+._SubmitButton {
+  display: flex;
+  justify-content: center;
+}
+
+._SubmitButton input {
+  font-size: 2rem;
+  background-color: #FFF;
+  color: #757575;
+  cursor: pointer;
+}
+
+._SubmitButton input:hover {
+  color: #FF6542;
 }

@@ -41,7 +41,9 @@ class BlogSubmit extends Component {
           <div className="_BlogForm">
             <textarea name="" id="" cols="40" rows="10" placeholder={this.state.textarea} ref={(blog) => { this.blogInput = blog }}></textarea>
           </div>
-          <input type="submit" value="Submit"/>
+          <div className="_SubmitButton">
+            <input type="submit" value="Submit"/>
+          </div>
         </form>
       </div>
     )

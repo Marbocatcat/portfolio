@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route} from "react-router-dom";
 import FrontPage from './pages/Front_Page';
 import BlogPage from './pages/Blog_Page';
 import BlogSubmit from './pages/Blog_Submit';
+import GalleryPage from './pages/Gallery_Page';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route exact path="/" component={ FrontPage } />
         <Route exact path="/Blog" component={ BlogPage } />
         <Route exact path="/Submit" component={ BlogSubmit } />
+        <Route exact path="/Gallery" component= { GalleryPage } />
       </article>
     </Router>
   )

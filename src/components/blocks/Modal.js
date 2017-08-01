@@ -28,8 +28,7 @@ export default class Modal extends Component {
             <ul className="_ModalList">
               <Link to="/"><li>Home</li></Link>
               <Link to="/Blog"><li>Blog</li></Link>
-              <Link to="/Works"><li>Works</li></Link>
-              <Link to="/Photographs"><li>Photographs</li></Link>
+              <Link to="/Gallery"><li>Gallery</li></Link>
               <Link to="/Log In"><li>Log In</li></Link>
             </ul>
 
