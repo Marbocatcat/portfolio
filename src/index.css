@@ -209,22 +209,19 @@ h5 {
 
 /* -------- */
 
-._ModalList {
+._Nav {
   display: flex;
-  padding: 14rem;
-  justify-content: center;
-  list-style: none;
 }
 
-._ModalList li {
-  padding: 0 3rem 0 0;
+._Nav li {
   font-family: "atc_harrisregular";
-  font-size: 2rem;
+  padding-left: 2rem;
 }
 
-._ModalList li:hover {
-  color: red;
+._Nav li:hover {
+  color: #FF6542;
 }
+
 
 /* -------- */
 

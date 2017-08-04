@@ -1,15 +1,15 @@
 import React from 'react';
-import Modal from './Modal';
+import { Link } from 'react-router-dom';
+
 
 const Headline = ({ children }) => {
   return (
     <div className="_Headline">
       <ul className="_Header">
-        <li>
-          <a href="/">{ children }</a>
-        </li>
-        <li>
-          <Modal />
+        <Link to="/"><li>{ children }</li></Link>
+        <li className="_Nav">
+          <Link to="/Blog"><li>Blog</li></Link>
+          <Link to="/Gallery"><li>Gallery</li></Link>
         </li>
       </ul>
     </div>

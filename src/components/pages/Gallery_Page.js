@@ -1,10 +1,14 @@
 import React from 'react';
 
 import Headline from '../blocks/Headline';
+import ImageList from '../containers/ImageList';
 
 const GalleryPage = () => {
   return (
-    <Headline>Photographs</Headline>
+      <div>
+        <Headline>Photographs</Headline>
+        <ImageList />
+      </div>
   )
 }
 
